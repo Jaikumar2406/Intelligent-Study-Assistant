@@ -1,0 +1,72 @@
+{
+  "Unit 1": [
+    "Overview of AI problems",
+    "AI problems as NP",
+    "Artificial Intelligence and its applications",
+    "Artificial Intelligence Techniques",
+    "Level of models",
+    "Criteria of success",
+    "Intelligent Agents",
+    "Nature of Agents",
+    "Learning Agents",
+    "Advantages and limitations of AI",
+    "Impact and Examples of AI",
+    "Application domains of AI",
+    "The AI Ladder - The Journey for Adopting AI Successfully",
+    "Advice for a career in AI",
+    "Hotbeds of AI Innovation"
+  ],
+  "Unit 2": [
+    "State space search",
+    "Control strategies",
+    "Heuristic search",
+    "Problem characteristics",
+    "Production system characteristics",
+    "Generate and test",
+    "Hill climbing",
+    "Best first search",
+    "A search",
+    "Constraint satisfaction problem",
+    "Mean-end analysis",
+    "Min-Max Search",
+    "Alpha-Beta Pruning",
+    "Additional refinements",
+    "Iterative Deepening"
+  ],
+  "Unit 3": [
+    "Propositional logic",
+    "Predicate logic",
+    "Resolution",
+    "Resolution in proportional logic and predicate logic",
+    "Clause form",
+    "Unification algorithm"
+  ],
+  "Unit 4": [
+    "Mapping between facts and representations",
+    "Approaches to knowledge representation",
+    "Procedural vs declarative knowledge",
+    "Forward vs. Backward reasoning",
+    "Matching",
+    "Conflict resolution",
+    "Non-monotonic reasoning",
+    "Default reasoning",
+    "Statistical reasoning",
+    "Fuzzy logic",
+    "Weak and Strong filler structures",
+    "Semantic nets",
+    "Frame",
+    "Conceptual dependency",
+    "Scripts"
+  ],
+  "Unit 5": [
+    "The Planning problem",
+    "Planning with state space search",
+    "Partial order planning",
+    "Planning graphs",
+    "Planning with propositional logic",
+    "Analysis of planning approaches",
+    "Hierarchical planning",
+    "Conditional planning",
+    "Continuous and Multi Agent planning"
+  ]
+}

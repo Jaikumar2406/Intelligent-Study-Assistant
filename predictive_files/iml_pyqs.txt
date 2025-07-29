@@ -1,0 +1,30 @@
+{
+  "Unit 1": [
+    "What do you understand by machine learning? How do machines learn?",
+    "Differentiate between supervised and unsupervised learning with example.",
+    "What are the applications of machine learning?",
+    "Distinguish between training data and testing data."
+  ],
+  "Unit 2": [
+    "What is regression? List down types of regression.",
+    "Explain simple linear regression. How does it work?",
+    "What are the assumptions of the ordinary least squares method for linear regression?",
+    "Differentiate between linear regression and logistic regression.",
+    "Explain why do we use multiple regression?",
+    "What are the steps to estimate ordinary least squares for multiple linear regression?",
+    "How to calculate coefficient of multiple determination (r-squared)."
+  ],
+  "Unit 3": [
+    "What is classification? List out classification techniques.",
+    "Explain k-nearest neighbor algorithm with example.",
+    "Explain Naive Bayesian classifier with suitable example.",
+    "Write short notes on:\n(i) Decision Tree\n(ii) Support Vector Machine"
+  ],
+  "Unit 4": [
+    "What do you mean by clustering? List out some clustering methods.",
+    "Explain hierarchical clustering method with suitable example.",
+    "Explain Euclidean distance measure method with suitable example.",
+    "Explain k-means and DBSCAN clustering with example."
+  ],
+  "Unit 5": []
+}

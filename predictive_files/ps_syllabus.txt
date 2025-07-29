@@ -1,0 +1,70 @@
+{
+  "Unit 1": [
+    "Probability: Introduction",
+    "Random Experiment",
+    "Sample Space",
+    "Event",
+    "Types of Events",
+    "Three Approaches to Probability",
+    "Additive and Multiplicative Laws of Probability",
+    "Conditional Probability",
+    "Total Probability Theorem",
+    "Bayes' Theorem and its applications"
+  ],
+  "Unit 2": [
+    "Random Variables",
+    "Definition of discrete and continuous random variables",
+    "Probability Mass Function (PMF)",
+    "Probability Density Function (PDF)",
+    "Cumulative Distribution Function (CDF)",
+    "Mean and Variance of a Random Variable",
+    "Moment",
+    "Generating Function of a Random Variable (Definition & Properties)",
+    "Bernoulli Distribution",
+    "Binomial Distribution",
+    "Poisson Distribution",
+    "Normal Distribution",
+    "Problems with Applications"
+  ],
+  "Unit 3": [
+    "Population",
+    "Sample",
+    "Attribute and Variable (Discrete and Continuous)",
+    "Classification and Tabulation of Data",
+    "Graphical Representation of Data",
+    "Histogram",
+    "Frequency Polygon",
+    "Stem-and-Leaf Plots",
+    "Box Plot",
+    "Bar & Pie Charts",
+    "Measures of Central Tendency: Mean, Median, Mode",
+    "Dispersion and its Measures: Range, Quartile Deviation, Mean Deviation, Standard Deviation",
+    "Skewness and Kurtosis"
+  ],
+  "Unit 4": [
+    "Correlation",
+    "Coefficient of Correlation",
+    "Rank Correlation",
+    "Regression",
+    "Regression Coefficients",
+    "Lines of Regression",
+    "Multiple Correlation and Regression",
+    "Coefficient of Multiple Correlation",
+    "Multiple Regression",
+    "Multiple Linear Regression Equations"
+  ],
+  "Unit 5": [
+    "Sampling: Definitions",
+    "Types of Sampling",
+    "Expected Values of Sample Mean and Variance",
+    "Standard Error",
+    "Sampling Distribution of Means and Variance",
+    "Estimation: Point Estimation and Interval Estimation",
+    "Hypothesis Testing: Null and Alternative Hypothesis",
+    "Type I and Type II Errors",
+    "Critical Region",
+    "Confidence Interval",
+    "Level of Significance",
+    "One Tailed and Two Tailed Test"
+  ]
+}

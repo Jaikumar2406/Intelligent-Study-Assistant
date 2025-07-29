@@ -1,0 +1,65 @@
+{
+  "Unit 1": [
+    "The Origins of Machine Learning",
+    "Uses and Abuses of Machine Learning",
+    "How do Machines Learn?",
+    "Abstraction and Knowledge Representation",
+    "Generalization",
+    "Assessing the Success of Learning",
+    "Steps to Apply Machine Learning to Data",
+    "Choosing a Machine Learning Algorithm",
+    "Thinking about the Input Data",
+    "Thinking about Types of Machine Learning Algorithms",
+    "Matching Data to an Appropriate Algorithm"
+  ],
+  "Unit 2": [
+    "Simple Linear Regression Model Building",
+    "Estimation of Parameters Using Ordinary Least Squares",
+    "Interpretation of Simple Linear Regression Coefficients",
+    "Validation of Simple Linear Regression Model",
+    "Coefficient of Determination (R-squared)",
+    "Adjusted R-Squared",
+    "Spurious Regression",
+    "Hypothesis Test for Regression Coefficients (t-Test)",
+    "Test for Overall Model: Analysis of Variance (F-Test)",
+    "Residual Analysis"
+  ],
+  "Unit 3": [
+    "Ordinary Least Squares Estimation for Multiple Linear Regression",
+    "Multiple Linear Regression Model Building",
+    "Partial Correlation and Regression Model Building",
+    "Interpretation of Multiple Linear Regression Coefficients",
+    "Validation of Multiple Regression Model",
+    "Coefficient of Multiple Determination (R-Squared)",
+    "Adjusted R-Squared",
+    "Statistical Significance of Individual Variables in Multiple Linear Regression: t-Test",
+    "Validation of Overall Regression Model: F-Test"
+  ],
+  "Unit 4": [
+    "What is Classification?",
+    "General Approach to Classification",
+    "k-Nearest Neighbor Algorithm",
+    "Logistic Regression",
+    "Decision Trees",
+    "Naive Bayesian Classifier",
+    "Ensemble Methods: Bagging, Boosting, AdaBoost, XBoost",
+    "Random Forests",
+    "Support Vector Machines",
+    "Rough Set and Fuzzy Set Approaches",
+    "Classification Model Evaluation and Selection",
+    "Sensitivity",
+    "Specificity",
+    "Positive Predictive Value",
+    "Negative Predictive Value"
+  ],
+  "Unit 5": [
+    "Overview of Some Basic Clustering Methods",
+    "Hierarchical Methods: Agglomerate versus Divisive Hierarchical Clustering",
+    "Distance Measures",
+    "Probabilistic Hierarchical Clustering",
+    "Multiphase Hierarchical Clustering Using Clustering Feature Trees",
+    "Partitioning Methods: k-Means Clustering",
+    "k-Medoids Clustering",
+    "Density-Based Clustering: DBSCAN"
+  ]
+}

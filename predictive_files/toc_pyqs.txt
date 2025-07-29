@@ -1,0 +1,32 @@
+{
+  "Unit 1": [
+    "Define and explain the term two-way finite automata.",
+    "Minimize the following DFA using Myhill-Nerode theorem.",
+    "Compare NFA and DFA with suitable examples.",
+    "Consider the Mealy machine described by the given transition table."
+  ],
+  "Unit 2": [
+    "Define Regular Expression and write their different properties.",
+    "Construct a DFA with reduced state equivalent to the regular expression L = 10 + (01 + 11)0*.",
+    "Using Pumping Lemma, prove that the language L = {a^n b^n | n ≥ 0} is not regular.",
+    "Explain the following:\n(i) Regular sets and Regular grammar\n(ii) Derivation algorithm"
+  ],
+  "Unit 3": [
+    "Define context-free grammar and write different properties of context-free languages.",
+    "Consider the context-free grammar G where:\nS → AB\nA → aA | a\nB → C | h\nC → D\nD → wB\nF → a\nEliminate all unit productions.",
+    "Convert the given CFG to CNF:\nS → bAc | aB\nA → bAA | aS | a\nB → aBB | bS | b",
+    "Write notes on:\n(i) Ambiguity in grammar\n(ii) Role and application areas of grammars"
+  ],
+  "Unit 4": [
+    "Define Push Down Automata (PDA) and NPDA with example.",
+    "Design a PDA which accepts the language L = {a^n b^n | n ≥ 1}.",
+    "Design a Turing Machine M that recognizes the language L = {a^n b^n c^n | n ≥ 1}.",
+    "Write short notes on:\n(i) Church’s Hypothesis\n(ii) Halting problem of Turing Machine"
+  ],
+  "Unit 5": [
+    "What do you mean by space and time complexity? Explain.",
+    "Explain recursive and recursively enumerable languages with example.",
+    "What is computation? Explain the Turing model for computation.",
+    "Write notes on:\n(i) Turing computable functions\n(ii) Partial recursive functions"
+  ]
+}

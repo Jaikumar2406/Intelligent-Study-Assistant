@@ -1,0 +1,69 @@
+{
+  "Unit 1": [
+    "Introduction to automata theory",
+    "Examples of automata machine",
+    "Finite automata as a language acceptor and translator",
+    "Deterministic finite automata",
+    "Non deterministic finite automata",
+    "Finite automata with output (Mealy Machine, Moore machine)",
+    "Finite automata with ε-moves",
+    "Conversion of NFA to DFA by Arden's method",
+    "Minimizing number of states of a DFA",
+    "Myhill-Nerode theorem",
+    "Properties and limitation of FSM",
+    "Two way finite automata",
+    "Application of finite automata"
+  ],
+  "Unit 2": [
+    "Regular expression",
+    "Properties of Regular Expression",
+    "Finite automata and Regular expressions",
+    "Regular Expression to DFA conversion & vice versa",
+    "Pumping lemma for regular sets",
+    "Application of pumping lemma",
+    "Regular sets and Regular grammar",
+    "Closure properties of regular sets",
+    "Decision algorithm for regular sets and regular grammar"
+  ],
+  "Unit 3": [
+    "Definition and types of grammar",
+    "Chomsky hierarchy of grammar",
+    "Relation between types of grammars",
+    "Role and application areas of grammars",
+    "Context free grammar",
+    "Leftmost linear and rightmost derivation trees",
+    "Ambiguity in grammar",
+    "Simplification of context free grammar",
+    "Chomsky Normal Form",
+    "Greibach Normal Form",
+    "Properties of context free language",
+    "Pumping lemma for context free language",
+    "Decision algorithm for context free language"
+  ],
+  "Unit 4": [
+    "Basic definitions of Push Down Automata and Turing Machine",
+    "Deterministic Pushdown Automata",
+    "Non deterministic Push Down Automata",
+    "Acceptance of Push Down Automata",
+    "Push Down Automata and Context Free Language",
+    "Turing Machine model",
+    "Representation of Turing Machine",
+    "Construction of Turing Machine for simple problems",
+    "Universal Turing Machine and other modifications",
+    "Church's Hypothesis",
+    "Post Correspondence Problem",
+    "Halting Problem of Turing Machine"
+  ],
+  "Unit 5": [
+    "Introduction and Basic concepts of Computability",
+    "Recursive function",
+    "Partial recursive function",
+    "Initial functions",
+    "Computability",
+    "A Turing model for computation",
+    "Turing computable functions",
+    "Construction of Turing Machine for computation",
+    "Space and Time complexity",
+    "Recursively enumerable languages and sets"
+  ]
+}
