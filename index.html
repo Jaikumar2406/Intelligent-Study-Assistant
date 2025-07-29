@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intelligent Study Assistant - Rungta College</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="/placeholder.svg?height=50&width=50" alt="Rungta College Logo">
+                <span>Intelligent Study Assistant</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Welcome to Intelligent Study Assistant</h1>
+                <p>Your AI-powered companion for academic excellence at Rungta College of Engineering and Technology</p>
+                <div class="hero-buttons">
+                    <button class="btn-primary" onclick="openChatbot('qa')">Questions</button>
+                    <button class="btn-secondary" onclick="openChatbot('syllabus')">Syllabus</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="Rungta_College_Campus.jpg" alt="AI Study Assistant">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Rungta College of Engineering and Technology</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Rungta College of Engineering and Technology stands as a beacon of excellence in technical education, fostering innovation and nurturing future engineers and technologists. Our commitment to quality education and research has made us a premier institution in the region.</p>
+                    <p>With state-of-the-art facilities, experienced faculty, and a student-centric approach, we provide an environment that encourages learning, creativity, and professional growth. Our Intelligent Study Assistant is designed to enhance your academic journey with AI-powered support.</p>
+                </div>
+                <div class="about-image">
+                    <img src="hqdefault.jpg" alt="Rungta College Campus">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Features of Our Study Assistant</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-question-circle"></i>
+                    <h3>Q&A Chatbot</h3>
+                    <p>Get instant answers to your academic questions across all subjects and topics</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-book"></i>
+                    <h3>Syllabus Assistant</h3>
+                    <p>Access comprehensive syllabus information and course details for all programs</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>24/7 Availability</h3>
+                    <p>Study support available round the clock to help you succeed</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-brain"></i>
+                    <h3>AI-Powered</h3>
+                    <p>Advanced artificial intelligence to provide accurate and helpful responses</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Information</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>Rungta College of Engineering and Technology<br>
+                            Bhilai, Chhattisgarh, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91-788-XXX-XXXX</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@rungta.ac.in</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-image">
+                    <img src="image.jpeg" alt="Contact Us">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chatbot Modal -->
+    <div id="chatbot-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="chatbot-title">Study Assistant</h3>
+                <span class="close" onclick="closeChatbot()">&times;</span>
+            </div>
+            <div class="chatbot-container">
+                <div id="chat-messages" class="chat-messages"></div>
+                <div class="chat-input-container">
+                    <input type="text" id="chat-input" placeholder="Type your message..." onkeypress="handleKeyPress(event)">
+                    <button onclick="sendMessage()"><i class="fas fa-paper-plane"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Intelligent Study Assistant</h4>
+                    <p>Empowering students with AI-driven academic support</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Rungta College of Engineering and Technology. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
